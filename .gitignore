@@ -1,0 +1,42 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+
+# IDE and editor state
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Local tooling and generated state
+.metadata/
+.flutter-plugins-dependencies
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Build and packaging artifacts
+*.apk
+*.aab
+*.ipa
+*.dSYM/
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+
+# Local app data and evidence snapshots
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db

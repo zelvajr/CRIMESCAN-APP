@@ -1,0 +1,80 @@
+name: forensic_spidercam
+description: SpiderCam Forensic Suite — M SELVAPRAKASH
+publish_to: 'none'
+version: 2.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  livekit_client: ^2.2.5
+  
+  # State Management
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Navigation
+  go_router: ^13.0.0
+  
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  path_provider: ^2.1.2
+  
+  # Camera & Media
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  video_player: ^2.8.3
+  
+  
+  # Audio
+  record: ^6.0.0
+  audioplayers: ^6.0.0
+  speech_to_text: ^7.0.0
+  
+  # GPS
+  geolocator: ^11.0.0
+  
+  # Network/Sync
+  dio: ^5.4.3+1
+  http: ^1.2.1
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  
+  # Crypto
+  crypto: ^3.0.3
+  
+  # PDF
+  pdf: ^3.10.8
+  printing: ^5.15.0
+  
+  # File handling
+  archive: ^4.0.9
+  share_plus: ^12.0.2
+  open_filex: ^4.3.4
+  
+  # UI
+  flutter_vlc_player: ^7.4.1
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  permission_handler: ^11.3.0
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.3
+  connectivity_plus: ^6.0.3
+  network_info_plus: ^5.0.0
+  watcher: ^1.1.0
+  mjpeg_stream: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
